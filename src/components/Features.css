@@ -1,0 +1,189 @@
+.first-container {
+  background-color: #fdf6f0;
+  border-radius: 25px !important;
+}
+
+.two-sizes {
+  line-height: 450px;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+}
+
+.battery {
+  border-radius: 25px !important;
+}
+
+.anime {
+  border-radius: 25px !important;
+}
+
+.context1 {
+  position: relative;
+  top: -129px;
+  z-index: 1;
+}
+
+.context2 {
+  position: relative;
+  top: -110px;
+  z-index: 1;
+}
+
+.flaw {
+  border-radius: 25px !important;
+}
+
+.flawless {
+  position: relative;
+  bottom: 60px;
+}
+
+.second {
+  margin-bottom: -80px;
+}
+
+.flat {
+  position: relative;
+  bottom: 360px;
+}
+
+.image-end-frame {
+  width: 100%;
+  height: 500px;
+  background-size: 1400px 550px;
+  background-repeat: no-repeat;
+  background-image: url(/public/design_endframe.jpg);
+  border-radius: 25px !important;
+}
+
+.image-features-camera {
+  width: 100%;
+  height: 500px;
+  background-size: 1400px 550px;
+  background-repeat: no-repeat;
+  background-image: url(/public/night_mode.jpg);
+  border-radius: 25px !important;
+}
+
+.night {
+  position: relative;
+  bottom: 150px;
+}
+
+.adv {
+  font-size: 48px;
+  line-height: 1.08349;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+}
+
+.fifth-container {
+  margin-top: -100px;
+}
+
+.right-img {
+  background-color: #fdf6f0;
+  border-radius: 25px !important;
+}
+
+.shield {
+  width: 100%;
+  height: 550px;
+  background-repeat: no-repeat;
+  background-image: url(/public/ceramic_shield.jpg);
+  border-radius: 25px !important;
+}
+
+.brilliant {
+  width: 100%;
+  height: 70%;
+  background-size: 670px 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(/public/brilliant_color.jpg);
+  position: relative;
+  top: 164px;
+}
+
+.combine {
+  position: relative;
+  top: 420px;
+}
+
+.bright-text {
+  position: relative;
+  bottom: 130px;
+}
+
+.bright-svg {
+  position: relative;
+  top: 330px;
+  left: 120px;
+}
+
+/* -------------------------------- 6th container ---------------------------- */
+.sixth-container {
+  margin-top: -165px;
+}
+
+.left-mag {
+  background-color: #f5f5f7;
+  border-radius: 25px !important;
+  margin-bottom: 155px;
+}
+
+.magfast {
+  width: 454px;
+  height: 350px;
+  /* background-size: 454px 459px; */
+  background-size: 454px 556px;
+  background-repeat: no-repeat;
+  background-image: url(/public/accessories.jpg);
+  left: 50%;
+  margin-left: -220px;
+  position: relative;
+  margin-top: 165px;
+}
+
+.magsafe-head {
+  position: relative;
+  top: 170px;
+}
+
+.magsafe-svg {
+  position: relative;
+  top: 295px;
+  left: 375px;
+}
+
+.skate {
+  border-radius: 25px !important;
+}
+
+.context3 {
+  position: relative;
+  top: -85px;
+  z-index: 1;
+}
+
+.skate-text {
+  position: relative;
+  bottom: 400px;
+  left: 10px;
+}
+
+/* ----------------------------Seventh container------------------------------------------------- */
+
+.seventh-container {
+  margin-top: -140px;
+}
+
+.oops-text {
+  position: relative;
+  bottom: 250px;
+  left: 500px;
+}

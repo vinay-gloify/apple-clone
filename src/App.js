@@ -1,10 +1,21 @@
 import './App.css';
+import Features from './components/Features';
+import Hero from './components/Hero';
+import Iphone from './components/Iphone';
+import Navbar from './components/Navbar';
+import Navbar2 from './components/Navbar2';
+import Specification from './components/Specification';
 
 function App() {
   return (
-    <div>
-      <h1>Hello World!</h1>
-    </div>
+    <>
+      <Navbar />
+      <Navbar2 />
+      <Hero />
+      <Features />
+      <Iphone />
+      <Specification />
+    </>
   );
 }
 
