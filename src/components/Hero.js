@@ -11,9 +11,9 @@ const Hero = () => {
                     <h4 className='fs-5 mt-4'>iPhone 12 and iPhone 12 mini</h4>
                     <h4 className='hero-headline'>Blast past fast.</h4>
                     <div className='d-flex justify-content-center'>
-                        <p className='hero-intro w-50 fst-normal'>A super-powerful chip. An advanced dual‑camera system.A Ceramic Shield front that’s tougher than any smartphone glass. And a bright, beautiful OLED display. iPhone 12 has it all — in two great sizes.</p>
+                        <h6 className='hero-intro w-50 fst-normal'>A super-powerful chip. An advanced dual‑camera system.A Ceramic Shield front that’s tougher than any smartphone glass. And a bright, beautiful OLED display. iPhone 12 has it all — in two great sizes.</h6>
                     </div>
-                    <p className='hero-pricing my-2'>From ₹59900.00* before trade‑in</p>
+                    <h6 className='hero-pricing my-2'>From ₹59900.00* before trade‑in</h6>
                     <button className='btn btn-primary rounded-pill mt-4 mb-5 fs-5 px-4'>Buy</button>
                 </div>
                 <div className='col-12 mt-5'>

@@ -1,5 +1,4 @@
 import React from 'react';
-import './Specification.css';
 
 const Specification = () => {
     return (
@@ -39,7 +38,7 @@ const Specification = () => {
                                     <p>All-screen OLED display<sup>4</sup> with ProMotion</p>
                                 </div>
                                 <div className='text-center mt-5'>
-                                    <img src="/icon_13_pro_camera.png" alt="img" />
+                                    <img src="/icon_13_pro_camera.png" className="mt-4" alt="img" />
                                     <p>Pro camera system <br /><span className='text-secondary'>Telephoto, Wide, Ultra Wide</span></p>
                                 </div>
                                 <div className='text-center mt-5'>
@@ -172,7 +171,7 @@ const Specification = () => {
                                 <div className='text-center mt-5 middle'>
                                     <h5>15.4 cm (6.1″) or</h5>
                                     <h5>13.7 cm (5.4″)</h5>
-                                    <p>All-screen OLED display4<sup>4</sup></p>
+                                    <p>All-screen OLED display<sup>4</sup></p>
                                 </div>
                                 <div className='text-center mt-5'>
                                     <img src="/icon_12_camera.png" className='mt-4' alt="img" />

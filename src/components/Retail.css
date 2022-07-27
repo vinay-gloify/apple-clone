@@ -1,0 +1,53 @@
+.retail {
+  background-color: #f5f5f7;
+}
+
+.head {
+  font-size: 56px;
+  line-height: 1.07143;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.w-25 {
+  width: 10% !important;
+}
+
+p {
+  font-size: 13px !important;
+}
+
+ol {
+  font-size: medium;
+}
+
+.bcrumb {
+  --bs-breadcrumb-divider: ">";
+}
+
+.anchors {
+  --bs-breadcrumb-divider: "|";
+}
+
+.bread-img {
+  background-image: url(/public/icon_bread.svg);
+  width: 14px;
+  height: 72px;
+  background-size: 14px 72px;
+  background-repeat: no-repeat;
+  height: 18px;
+  display: block;
+  position: relative;
+  top: 1px;
+  z-index: 2;
+  color: transparent;
+  background-position-y: -36px;
+}
+.breadcrumb-item {
+  font-size: 15px !important;
+}
+
+.footer-link {
+  font-size: 15px !important;
+}
