@@ -1,11 +1,11 @@
 import './App.css';
-import Features from './components/Features';
-import Hero from './components/Hero';
-import Iphone from './components/Iphone';
 import Navbar from './components/Navbar';
 import Navbar2 from './components/Navbar2';
-import Retail from './components/Retail';
+import Hero from './components/Hero';
+import Features from './components/Features';
+import Iphone from './components/Iphone';
 import Specification from './components/Specification';
+import Retail from './components/Retail';
 
 function App() {
   return (

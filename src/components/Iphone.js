@@ -13,7 +13,7 @@ const Iphone = () => {
                     </div>
                     <div className='row'>
                         <div className='col-12'>
-                            <div className='d-flex justify-content-around'>
+                            <div className='d-lg-flex justify-content-around'>
                                 <div>
                                     <span>
                                         <img src="/icon_privacy.jpg" alt="img" />
@@ -40,7 +40,7 @@ const Iphone = () => {
                             </div>
                         </div>
                         <div className='col-12 mb-5'>
-                            <div className='d-flex justify-content-around mt-5'>
+                            <div className='d-lg-flex justify-content-around mt-5'>
                                 <div>
                                     <span className='mt-5'>
                                         <img src="/icon_durable.jpg" alt="img" />
@@ -50,7 +50,7 @@ const Iphone = () => {
                                         <p className='text-break me-5 fw-normal'>Super-strong materials and water resistance make iPhone incredibly durable. And automatic iOS updates deliver new features and security enhancements that keep your iPhone running beautifully and help it hold its value longer than other smartphones.</p>
                                     </span>
                                 </div>
-                                <div className='ms-5'>
+                                <div className='ms-5 envo'>
                                     <span className='ms-5'>
                                         <img src="/icon_environment.jpg" alt="img" />
                                     </span>

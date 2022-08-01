@@ -1,0 +1,17 @@
+@media (max-width: 991px) {
+  .specs-main {
+    margin-left: -85px;
+  }
+}
+
+@media (max-width: 991px) {
+  .cam_13 {
+    margin-top: 42px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .amaz {
+    margin-top: 68px !important;
+  }
+}

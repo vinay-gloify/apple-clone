@@ -18,7 +18,7 @@ const Retail = () => {
                     </div>
                     <div className='container mt-5'>
                         <div className='row'>
-                            <div className='col-6'>
+                            <div className='col-lg-6 col-12'>
                                 <div className='text-center mt-5 mb-5'>
                                     <h3>Trade in your smartphone <br /> for credit.</h3>
                                     <p className='ms-5 me-5 mt-3'>With Apple Trade In, you can get credit towards a new iPhone when you trade in an eligible smartphone.<sup>6</sup> It’s good for you and the planet.</p>
@@ -27,7 +27,7 @@ const Retail = () => {
                                     </svg></a>
                                 </div>
                             </div>
-                            <div className='col-6'>
+                            <div className='col-lg-6 col-12'>
                                 <div className='text-center mt-5'>
                                     <h3>Still have questions? <br /> Just ask.</h3>
                                     <p className='ms-5 me-5 mt-3'>You won’t find a better place to buy iPhone. We know about carriers, payment options and more. And we make it easy to understand.</p>
@@ -41,7 +41,7 @@ const Retail = () => {
                     </div>
                     <div className='container'>
                         <div className='row'>
-                            <div className='col-4'>
+                            <div className='col-lg-4 col-12'>
                                 <div className='text-center mt-5'>
                                     <img src="/icon_large.svg" className='w-25' alt="img" />
                                     <h3>Free delivery</h3>
@@ -51,7 +51,7 @@ const Retail = () => {
                                     </svg></a>
                                 </div>
                             </div>
-                            <div className='col-4'>
+                            <div className='col-lg-4 col-12'>
                                 <div className='text-center mt-5'>
                                     <img src="/icon_rupee.svg" className='w-25' alt="img" />
                                     <h3>Ways to buy</h3>
@@ -61,7 +61,7 @@ const Retail = () => {
                                     </svg></a>
                                 </div>
                             </div>
-                            <div className='col-4'>
+                            <div className='col-lg-4 col-12'>
                                 <div className='text-center mt-5'>
                                     <img src="/icon_chat.svg" className='w-25' alt="img" />
                                     <h3>Get help buying</h3>
@@ -101,7 +101,7 @@ const Retail = () => {
                         </div>
                     </div>
                     <div className='row'>
-                        <div className='col-2'>
+                        <div className='col-lg-2 col-12'>
                             <div className='text-start'>
                                 <h6>Shop and Learn</h6>
                                 <ul style={{ "list-style-type": "none" }} className="p-0 footer-link">
@@ -118,7 +118,7 @@ const Retail = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className='col-2'>
+                        <div className='col-lg-2 col-12'>
                             <div className='text-start'>
                                 <h6>Services</h6>
                                 <ul style={{ "list-style-type": "none" }} className="p-0 footer-link">
@@ -140,7 +140,7 @@ const Retail = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className='col-2'>
+                        <div className='col-lg-2 col-12'>
                             <div className='text-start'>
                                 <h6>Apple Store</h6>
                                 <ul style={{ "list-style-type": "none" }} className="p-0 footer-link">
@@ -152,7 +152,7 @@ const Retail = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className='col-2'>
+                        <div className='col-lg-2 col-12'>
                             <div className='text-start'>
                                 <h6>For Business</h6>
                                 <ul style={{ "list-style-type": "none" }} className="p-0 footer-link">
@@ -171,7 +171,7 @@ const Retail = () => {
                                 </ul>
                             </div>
                         </div>
-                        <div className='col-2'>
+                        <div className='col-lg-2 col-12'>
                             <div className='text-start'>
                                 <h6>Apple Values</h6>
                                 <ul style={{ "list-style-type": "none" }} className="p-0 footer-link">
@@ -195,7 +195,7 @@ const Retail = () => {
                     </div>
                     <p className='text-secondary mt-4'>More ways to shop: <span className='text-primary'>Find a retailer</span> near you. Or call 000800 040 1966.</p>
                     <hr />
-                    <div className='d-flex justify-content-between'>
+                    <div className='d-lg-flex justify-content-between'>
                         <span>
                             <p className='text-secondary'>Copyright © 2022 Apple Inc. All rights reserved.</p>
                         </span>

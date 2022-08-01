@@ -22,3 +22,10 @@ p {
 a {
   text-decoration: none;
 }
+
+@media (max-width: 991px) {
+  .envo {
+    margin-left: -13px !important;
+    margin-top: 50px !important;
+  }
+}

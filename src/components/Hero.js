@@ -17,7 +17,7 @@ const Hero = () => {
                     <button className='btn btn-primary rounded-pill mt-4 mb-5 fs-5 px-4'>Buy</button>
                 </div>
                 <div className='col-12 mt-5'>
-                    <div className='d-flex justify-content-center mt-2'>
+                    <div className='d-flex justify-content-center mt-2 side-crop'>
                         {color ? '' : <img src="/hero_purple.jpg" className='w-75' alt="img" />}
                         {color === 'purple' ? <img src="/hero_purple.jpg" className='w-75' alt="img" /> : ''}
                         {color === 'blue' ? <img src="/hero_blue.jpg" className='w-75' alt="img" /> : ''}
@@ -26,7 +26,7 @@ const Hero = () => {
                         {color === 'white' ? <img src="/hero_white.jpg" className='w-75' alt="img" /> : ''}
                         {color === 'black' ? <img src="/hero_black.jpg" className='w-75' alt="img" /> : ''}
                     </div>
-                    <div className='col-6 mt-5 p-5'>
+                    <div className='col-lg-6 col-12 mt-5 p-5 color-scrum'>
                         <div className='container-fluid d-flex ms-5'>
                             <label class="container">{color === 'purple' ? <h6>Purple</h6> : ''}
                                 <input type="radio" name="radio" value='purple' onClick={(e) => { setColor(e.target.value) }} />

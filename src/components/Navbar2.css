@@ -7,3 +7,17 @@
 .nav-link {
   font-size: 13px !important;
 }
+
+@media (max-width: 991px) {
+  .nav2 {
+    height: 72px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    margin-top: 14px;
+    opacity: 1 !important;
+    margin-left: -45px;
+  }
+}

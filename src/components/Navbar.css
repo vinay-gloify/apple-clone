@@ -6,3 +6,16 @@
 .nav-link {
   font-size: 12px !important;
 }
+
+@media (max-width: 991px) {
+  .nav {
+    max-height: none !important;
+    padding: 0px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .mx-4 {
+    margin-left: 4px !important;
+  }
+}

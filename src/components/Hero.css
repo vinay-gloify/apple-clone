@@ -54,7 +54,7 @@
 .checkmark-purple {
   position: absolute;
   top: -25px;
-  left: 50px;
+  left: 120px;
   height: 25px;
   width: 25px;
   background-color: #a49ad4;
@@ -94,7 +94,7 @@
 .checkmark-blue {
   position: absolute;
   top: -25px;
-  left: 50px;
+  left: 85px;
   height: 25px;
   width: 25px;
   background-color: #4a6386;
@@ -174,7 +174,7 @@
 .checkmark-red {
   position: absolute;
   top: -25px;
-  left: 70px;
+  left: 15px;
   height: 25px;
   width: 25px;
   background-color: #b41f23;
@@ -214,7 +214,7 @@
 .checkmark-white {
   position: absolute;
   top: -25px;
-  left: 50px;
+  left: -30px;
   height: 25px;
   width: 25px;
   background-color: #c0b9b2;
@@ -254,7 +254,7 @@
 .checkmark-black {
   position: absolute;
   top: -25px;
-  left: 50px;
+  left: -70px;
   height: 25px;
   width: 25px;
   background-color: #3f3e45;
@@ -288,8 +288,97 @@
   background: #3f3e45;
 }
 
+.color-scrum {
+  margin-left: 250px !important;
+}
+
 @media (max-width: 991px) {
   .ms-5 {
     margin-left: -6rem !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero-headline {
+    font-size: 42px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero-intro {
+    width: 100% !important;
+    font-size: 15px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .hero-pricing {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 991px) {
+  .side-crop {
+    max-width: 375px;
+    overflow: hidden;
+    position: relative;
+    top: -44px;
+    /* right: 145px; */
+    left: -45px;
+    width: 378px;
+  }
+  .side-crop img {
+    max-width: initial;
+  }
+}
+
+@media (max-width: 991px) {
+  .color-scrum {
+    margin-left: -108px !important;
+    margin-top: -10px !important;
+    margin-bottom: 15px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .w-75 {
+    width: 211% !important;
+    margin-left: 445px;
+  }
+}
+
+@media (max-width: 991px) {
+  .checkmark-purple {
+    left: 75px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .checkmark-blue {
+    left: 70px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .checkmark-green {
+    left: 65px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .checkmark-black {
+    left: 30px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .checkmark-white {
+    left: 40px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .checkmark-red {
+    left: 58px !important;
   }
 }
