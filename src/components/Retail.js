@@ -5,7 +5,7 @@ const Retail = () => {
     return (
         <section className="retail">
             <div className='container-fluid'>
-                <div className='container'>
+                <div className='container credit'>
                     <div className='row'>
                         <div className='col-12'>
                             <div className='text-center'>

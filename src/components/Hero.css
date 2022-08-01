@@ -72,7 +72,6 @@
   position: absolute;
   display: none;
 }
-
 /* Show the indicator (dot/circle) when checked */
 .container input:checked ~ .checkmark-purple:after {
   display: block;
@@ -318,6 +317,19 @@
 }
 
 @media (max-width: 991px) {
+  .side-crop img {
+    width: 100%;
+    max-width: none;
+    min-width: 729px;
+    max-height: none;
+    min-height: 176px;
+    margin-left: 99.08333%;
+    transform: none;
+    object-position: right;
+  }
+}
+
+@media (max-width: 991px) {
   .side-crop {
     max-width: 375px;
     overflow: hidden;
@@ -326,9 +338,6 @@
     /* right: 145px; */
     left: -45px;
     width: 378px;
-  }
-  .side-crop img {
-    max-width: initial;
   }
 }
 
@@ -341,9 +350,9 @@
 }
 
 @media (max-width: 991px) {
-  .w-75 {
-    width: 211% !important;
-    margin-left: 445px;
+  .img-fit {
+    object-fit: fill;
+    object-position: 10rem;
   }
 }
 

@@ -101,7 +101,7 @@
 .brilliant {
   width: 100%;
   height: 70%;
-  background-size: 670px 380px;
+  background-size: 450px 250px;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url(/public/brilliant_color.jpg);
@@ -121,13 +121,13 @@
 
 .bright-svg {
   position: relative;
-  top: 330px;
-  left: 120px;
+  top: 200px;
+  left: 36px;
 }
 
 /* -------------------------------- 6th container ---------------------------- */
 .sixth-container {
-  margin-top: -165px;
+  margin-top: -110px !important;
 }
 
 .left-mag {
@@ -140,10 +140,10 @@
   width: 454px;
   height: 350px;
   /* background-size: 454px 459px; */
-  background-size: 454px 556px;
+  background-size: 385px 556px;
   background-repeat: no-repeat;
   background-image: url(/public/accessories.jpg);
-  left: 50%;
+  left: 56%;
   margin-left: -220px;
   position: relative;
   margin-top: 165px;
@@ -179,13 +179,32 @@
 /* ----------------------------Seventh container------------------------------------------------- */
 
 .seventh-container {
-  margin-top: -140px;
+  margin-top: -100px;
 }
 
 .oops-text {
   position: relative;
   bottom: 250px;
   left: 500px;
+}
+
+.oop {
+  border-radius: 25px !important;
+}
+
+@media (max-width: 991px) {
+  video {
+    max-width: 800px !important;
+    max-height: 386px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .oops-text {
+    position: relative;
+    bottom: 20px;
+    left: 50px;
+  }
 }
 
 @media (max-width: 991px) {
@@ -273,20 +292,20 @@
 
 @media (max-width: 991px) {
   .right-img {
-    padding-top: 300px;
+    padding-top: 250px;
   }
 }
 
 @media (max-width: 991px) {
   .brilliant {
-    top: -229px;
-    height: 125% !important;
+    top: -136px;
+    height: 200% !important;
   }
 }
 
 @media (max-width: 991px) {
   .bright-text {
     position: relative;
-    bottom: -350px;
+    bottom: 95px;
   }
 }

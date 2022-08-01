@@ -110,7 +110,7 @@ const Features = () => {
                     <div className='col-lg-6 col-12 right-img'>
                         <div className='brilliant img-fluid'>
                             <div className='d-flex justify-content-center'>
-                                <span className='bright-text mb-5'>
+                                <span className='bright-text mb-5 ms-4'>
                                     <h1 className='fw-semibold'>A bright, beautiful <br /> OLED display.</h1>
                                 </span>
                                 <span className='bright-svg'>
@@ -124,7 +124,7 @@ const Features = () => {
                     </div>
                 </div>
             </div>
-            <div className="sixth-container  ms-3">
+            <div className="sixth-container">
                 <div className="row">
                     <span className="magsafe-head">
                         <h1 className='fw-semibold ms-5 p-3'><span className="ms-5">MagSafe.</span><br /><span className="ms-4">Snap on the </span><br /><span className="me-4">perfect accessory.</span></h1>
@@ -140,7 +140,7 @@ const Features = () => {
                         </div>
                     </div>
                     <div className='col-lg-8 col-12'>
-                        <video src="/skate.mp4" className="skate w-100" loop controls autoplay="" muted></video>
+                        <video src="/skate.mp4" className="skate w-100 img-fluid" loop controls autoplay="" muted></video>
                         <div className="context3 d-flex justify-content-between ms-4" >
                             <span>
                                 <h1 className='text-white fs-1 skate-text'>Dolby Vision recording <br />  with 700 million <br /> colours.</h1>
@@ -156,20 +156,20 @@ const Features = () => {
                 </div>
             </div>
 
-            <div className="seventh-container p-2">
+            <div className="seventh-container">
                 <div className="row">
                     <div className='col-12'>
-                        <video src="/water.mp4" className="skate w-100" loop controls autoplay="" muted></video>
+                        <video src="/water.mp4" className="oop w-100 img-fluid" loop controls autoplay="" muted ></video>
                         <div className="context3 d-flex justify-content-between ms-4" >
-                            <span>
+                            <div>
                                 <h1 className='text-white fs-1 oops-text text-center'>Oops resistant.</h1>
-                            </span>
-                            <span className='me-4 mt-3'>
+                            </div>
+                            <div className='me-4 mt-3'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="38" height="32" fill="#ffffff" className="bi bi-plus-circle" viewBox="0 0 16 16">
                                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
                                     <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z" />
                                 </svg>
-                            </span>
+                            </div>
                         </div>
                     </div>
                 </div>
